@@ -15,7 +15,7 @@ import spark.Spark;
  */
 public class App {
 	public static void main(String[] args) {
-		//Spark.port(1241);
+		Spark.port(1235);
 
 		 
 		get("/getmachineinfo/:macid", (req,res) -> {
